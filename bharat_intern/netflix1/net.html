@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="./netf.css">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <title>Netflix clone</title>
+    <style>
+        .kd_images img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <style>
+        .col-2 img {
+          width: 100%; 
+          transition: transform 0.3s; 
+        }
+        .col-2:hover img {
+          transform: scale(1.1); 
+        }
+      </style>
+    
+</head>
+<body>
+    <div class="container">
+        <img src="logon.png" alt="" style="width:100px;height:50px;float:left;">
+        <p style="margin:0px;height:32px;max-width:100%;float:left;overflow:auto;">
+        <div class="home" style="display: flex; justify-content: space-between;">
+            <p>Home</p>
+            <p>TV shows</p>
+            <p>Movies</p>
+            <p>New&Popular</p>
+            <p>My List</p>
+            <p>Browse by language</p>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            
+        </div>
+        </p>
+        <div class = "detail">
+        <div id="netflixCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#netflixCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#netflixCarousel" data-slide-to="1"></li>
+              <li data-target="#netflixCarousel" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="i3.jpg" class="d-block w-100" alt="..." width = 100% height = 500px />
+            </div>
+            <div class="carousel-item">
+              <img src="i2.jpg" class="d-block w-100" alt="..." width = 100% height = 500px/>
+            </div>
+            <div class="carousel-item">
+              <img src="i1.jpg" class="d-block w-100" alt="..." width = 100% height = 500px />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#netflixCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#netflixCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </div>
+
+        
+        <p style="color:aliceblue">K-Dramas</p>
+        <div class="kd_images">
+            <div class="row">
+                <div class="col-2"><a href="heirs2.mp4">
+                    <img src="k1.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="kd2.mp4">
+                    <img src="k2.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="squidgame.mp4">
+                    <img src="k3.jpeg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="water.mp4">
+                    <img src="k4.jpeg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="myname2.mp4">
+                    <img src="k5.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="squidgame.mp4">
+                    <img src="k6.jpg" alt="No image">
+                    </a></div>
+                
+            </div>
+        </div>
+        <p style="color:aliceblue">Telugu Feel good</p>
+        <div class="kd_images">
+            <div class="row">
+                <div class="col-2"><a href="t1.mp4">
+                    <img src="anan.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="t2.mp4">
+                    <img src="godavari.webp" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="t3.mp4">
+                    <img src="life.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="t4.mp4">
+                    <img src="hapy.jpeg" alt="No image">
+                    </a></div>
+                
+                
+            </div>
+        </div>
+        <p style="color:aliceblue">Horror</p>
+        <div class="kd_images">
+            <div class="row">
+                <div class="col-2"><a href="h1.mp4">
+                    <img src="ho1.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="h2.mp4">
+                    <img src="ho2.jpg" alt="No image">
+                    </a></div>
+            </div>
+        </div>
+    <p style="color:aliceblue">Telugu Feel good</p>
+        <div class="kd_images">
+            <div class="row">
+                <div class="col-2"><a href="tv1.mp4">
+                    <img src="tvs1.jpg" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="tv2.mp4">
+                    <img src="tvs2.png" alt="No image">
+                    </a></div>
+                <div class="col-2"><a href="tv3.mp4">
+                    <img src="tvs3.jpg" alt="No image">
+                    </a></div>
+            </div>
+        </div>
+</div>
+
+
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>

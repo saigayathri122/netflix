@@ -1,0 +1,48 @@
+img{
+    padding: 8px;
+}
+.container{
+    padding-top:3px;
+    background-color: black;
+}
+.home{
+    color:aliceblue;
+    padding:3px;
+}
+.vedio{
+    padding:6px;
+}
+.detail {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+    size: 5cqh;
+  }
+  /* Add your custom styles here */
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
